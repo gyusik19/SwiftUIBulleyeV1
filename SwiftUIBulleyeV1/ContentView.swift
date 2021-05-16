@@ -22,6 +22,7 @@ struct ContentView: View {
             Spacer()
             // Slider row
             // TODO : Add view for. he. Slider row here
+            // comment
             HStack {
                 Text("1")
                 Slider(value: self.$sliderValue, in: 1...100)
